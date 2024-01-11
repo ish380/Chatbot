@@ -69,6 +69,20 @@ function getBotResponse(input) {
     {
         return "Welcome";
     }
+    
+    if( input == "what do you know about banasthali vidyapith"){
+        return "I am getting trained on banasthali data, i will be happy to help you with any queries";
+    }
+    if( input == "banasthali vidyapith"){
+        return "I am getting trained on banasthali data, i will be happy to help you with any queries";
+    }
+    if( input == "Banasthali Vidyapith"){
+        return "I am getting trained on banasthali Vidyapith's data, i will be happy to help you with any queries";
+    }
+    if( input == "Tell me something about Banasthali Vidyapith"){
+        return "Banasthali is one of the five higher education institute in India meant exclusively for Women. Banasthali was founded by Smt. Ratan Shastri and Pandit Hiralal Shastri on October 6, 1935. Banasthali Vidyapith is a fully residential women's higher education institute which offers an integrated system extending from the primary to the Ph.D. level.";
+    }
+    
     //where is banasthali
     if(input=="where is banasthali located")
     {
